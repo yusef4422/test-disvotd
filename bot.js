@@ -774,7 +774,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#Bà|| System`,"http://twitch.tv/DJ")
+client.user.setGame(`#Epic|| System`,"http://twitch.tv/DJ")
 client.user.setStatus("dnd")
 });
  
