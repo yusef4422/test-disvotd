@@ -1,3 +1,6 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
 client.on('message',async message => {
   if(message.channel.type === 'dm') return;
   if(message.author.bot) return;
