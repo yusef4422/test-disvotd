@@ -8,10 +8,9 @@ function clean(text) {
         return text;
 }
 
-const prefix = "-";
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  client.user.setGame(`Welcome to Vault Reward`);
 });
 
 
